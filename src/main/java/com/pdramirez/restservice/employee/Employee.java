@@ -14,14 +14,16 @@ public class Employee {
     private String lastName;
     private String role;
 
+    private String description;
     Employee() {
     }
 
 
-    public Employee(String firstName, String lastName, String role) {
+    public Employee(String firstName, String lastName, String role, String description) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.role = role;
+        this.description = description;
     }
 
     public Long getId() {
